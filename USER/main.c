@@ -21,6 +21,8 @@ int main(void)
     delay_init(72);
     LED_Init();
     ADC_Init();
+	
+	
 
 
     while (SD_Card_Init() == 0)
