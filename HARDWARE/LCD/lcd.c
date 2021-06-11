@@ -15,10 +15,10 @@ static void LCD_WR_REG(u16 regval)
 }
 
 //写LCD数据
-static void LCD_WR_DATA(u16 data)
-{
-    LCD->LCD_REG = data;
-}
+//static void LCD_WR_DATA(u16 data)
+//{
+//    LCD->LCD_REG = data;
+//}
 
 //读LCD数据
 static u16 LCD_RD_DATA(void)
